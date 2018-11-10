@@ -6,4 +6,4 @@
 - [03 - nil slice](./03/main.go)
 - [04 - defer](./04/main.go)
 - [05 - interface](./05/main.go)
-
+- [06 - slice](./06/main.go)

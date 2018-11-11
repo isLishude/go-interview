@@ -7,3 +7,4 @@
 - [04 - defer](./04/main.go)
 - [05 - interface](./05/main.go)
 - [06 - slice](./06/main.go)
+- [07 - type declare](./07/main.go)

@@ -8,3 +8,4 @@
 - [05 - interface](./05/main.go)
 - [06 - slice](./06/main.go)
 - [07 - type declare](./07/main.go)
+- [08 - short declare](./08/main.go)

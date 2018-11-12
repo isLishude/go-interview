@@ -1,0 +1,6 @@
+package main
+
+// x, _ := f() //incorrect
+// x, _ = f()  //correct
+// x, y := f() //correct
+// x, y = f()  //incorrect

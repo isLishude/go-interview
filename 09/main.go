@@ -15,6 +15,9 @@ func main() {
 
 	// right here?
 	a = make([]byte, 0, 0)
+	
+	// right here?
+	a = make(hash, 0, 0)
 
 	type number float64
 	var i number

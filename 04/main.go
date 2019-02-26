@@ -11,7 +11,7 @@ func main() {
 func test() int {
 	defer func() {
 		if err := recover(); err != nil {
-			fmt.Println(err)
+			//
 		}
 	}()
 	panic(1)

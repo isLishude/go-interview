@@ -1,3 +1,4 @@
+// +build ignore
 package main
 
 import (
@@ -26,3 +27,7 @@ func fn() (bool, error) {
 func main() {
 	fmt.Println("main:", todo)
 }
+
+// Answer:
+// init: true
+// main: false

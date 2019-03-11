@@ -1,3 +1,4 @@
+// +build ignore
 package main
 
 // this section is from `https://github.com/goquiz/goquiz.github.io`
@@ -50,3 +51,10 @@ func main() {
 	fmt.Println(initIntFType() == nil)
 	fmt.Println(initIntFPointer() == nil)
 }
+
+// println(InitType() == nil)             // nil only for point func map slice
+// fmt.Println(initPointer() == nil)      // true
+// fmt.Println(initEfaceType() == nil)    // false
+// fmt.Println(initEfacePointer() == nil) // false
+// fmt.Println(initIntFType() == nil)     // false
+// fmt.Println(initIntFPointer() == nil)  // false

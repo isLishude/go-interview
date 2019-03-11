@@ -1,3 +1,4 @@
+// +build ignore
 package main
 
 import (
@@ -15,3 +16,6 @@ func main() {
 	res := fn()
 	fmt.Println(res)
 }
+
+// Answer:
+// true

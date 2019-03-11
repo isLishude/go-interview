@@ -1,3 +1,4 @@
+// +build ignore
 package main
 
 import (
@@ -9,10 +10,11 @@ func main() {
 }
 
 func test() int {
-	defer func() {
+	defer func() interface{} {
 		if err := recover(); err != nil {
-			//
+			return err
 		}
+		return nil
 	}()
 	panic(1)
 }
@@ -21,3 +23,6 @@ func test() int {
 // - Compile failed
 // - print 0
 // - nothing print
+
+// Answer
+// print 0

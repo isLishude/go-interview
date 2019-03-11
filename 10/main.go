@@ -1,3 +1,4 @@
+// +build ignore
 package main
 
 import (
@@ -12,3 +13,5 @@ func main() {
 
 	fmt.Println(<-c)
 }
+
+// print 10

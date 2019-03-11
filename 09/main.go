@@ -1,3 +1,4 @@
+// +build ignore
 package main
 
 // see spec: https://golang.org/ref/spec#Assignability
@@ -20,27 +21,27 @@ package main
                                  -- Go语言学习笔记
 */
 
-func main() {
-	type hash []byte
+type hash []byte
+type number float64
 
-	var a hash
-	var b []byte
+var a hash
+var b []byte
+var i number
+var j float64
+
+func main() {
 
 	// right here?
 	a = b
 	b = a
 
 	// right here?
-	a = make([]byte, 0, 0)
-	
-	// right here?
-	a = make(hash, 0, 0)
-
-	type number float64
-	var i number
-	var j float64
+	a = make([]byte, 0)
 
 	// right here?
+	a = make(hash, 0)
+
+	// why not correct here?
 	// i = j
 	// j = i
 

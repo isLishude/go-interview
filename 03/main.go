@@ -1,3 +1,4 @@
+// +build ignore
 package main
 
 import (
@@ -9,3 +10,6 @@ func main() {
 	b := a[:]
 	fmt.Println(b == nil)
 }
+
+// Answer:
+// true

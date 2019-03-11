@@ -1,3 +1,4 @@
+// +build ignore
 package main
 
 import (
@@ -39,3 +40,7 @@ func main() {
 	test1()
 	test2()
 }
+
+// Answer:
+// [1 12 13]
+// [1 2 3]

@@ -11,3 +11,4 @@
 - [08 - short declare](./08/main.go)
 - [09 - assignability](./09/main.go)
 - [10 - close buffer channel](./10/main.go)
+- [11 - variadic fuction](./10/main.go)

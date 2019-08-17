@@ -250,3 +250,20 @@ func main() {
 }
 // 0 1 2 1 1 2 1 1
 ```
+
+## 10 
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var err error
+	_, ok := err.(error)
+	fmt.Println(ok)
+}
+// false
+```

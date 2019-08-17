@@ -285,6 +285,8 @@ func main() {
 
 func test(i []int) {
 	i = append(i, 100, 200)
+	// or
+	// i = []int{0, 1, 2, 100, 200 }
 }
 // [0 1 2]
 ```

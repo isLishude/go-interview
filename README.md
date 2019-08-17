@@ -286,5 +286,5 @@ func main() {
 func test(i []int) {
 	i = append(i, 100, 200)
 }
-[0 1 2]
+// [0 1 2]
 ```

@@ -267,3 +267,23 @@ func main() {
 }
 // false
 ```
+
+## 11
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	i := []int{0, 1, 2}
+	test(i)
+	fmt.Print(i)
+}
+
+func test(i []int) {
+	i = append(i, 100, 200)
+}
+```
